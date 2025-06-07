@@ -1,1 +1,1 @@
-spring:  application:    name: greeting-servicemanagement:  endpoint:    env:      show-values: ALWAYS  endpoints:    web:      exposure:        include: '*'greeting-service:  greeting: "Hello"  default-value: "World"
+spring:  application:    name: greeting-servicemanagement:  endpoint:    env:      show-values: ALWAYS  endpoints:    web:      exposure:        include:        - refreshgreeting-service:  greeting: "Hello"  default-value: "World"
